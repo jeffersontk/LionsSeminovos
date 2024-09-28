@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Hyundai HB20 Comfort Style",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/53187-IMG_3127_17_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2013,
+    "fuel": "Gasolina",
+    "model": "HB20 Comfort Style 1.6",
+    "manufacturer": "Hyundai",
+    "urlRedirect": "https://example.com/cars/hyundai-hb20"
+  },
+  {
+    "id": 2,
+    "name": "Volkswagen Tiguan",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/45529-IMG_3355_16_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2012,
+    "fuel": "Gasolina",
+    "model": "Tiguan TSI 4WD 2.0",
+    "manufacturer": "Volkswagen",
+    "urlRedirect": "https://example.com/cars/volkswagen-tiguan"
+  },
+  {
+    "id": 3,
+    "name": "Chevrolet Tracker LT",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/56176-IMG_7953_17_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2025,
+    "fuel": "Gasolina",
+    "model": "Tracker LT 1.0 AT",
+    "manufacturer": "Chevrolet",
+    "urlRedirect": "https://example.com/cars/chevrolet-tracker"
+  },
+  {
+    "id": 4,
+    "name": "Volkswagen Nivus Comfortline",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/15704-IMG_9355.JPG?v=3",
+    "km": "Não informado",
+    "year": 2024,
+    "fuel": "Gasolina",
+    "model": "Nivus 200 TSI Comfortline AT",
+    "manufacturer": "Volkswagen",
+    "urlRedirect": "https://example.com/cars/volkswagen-nivus"
+  },
+  {
+    "id": 5,
+    "name": "Peugeot 2008 Allure Pack",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/65760-IMG_7306_2_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2022,
+    "fuel": "Gasolina",
+    "model": "2008 1.6 Allure Pack",
+    "manufacturer": "Peugeot",
+    "urlRedirect": "https://example.com/cars/peugeot-2008"
+  },
+  {
+    "id": 6,
+    "name": "Nissan Versa V-Drive",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/40340-IMG_1925_17_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2021,
+    "fuel": "Gasolina",
+    "model": "Versa 1.6 V-Drive",
+    "manufacturer": "Nissan",
+    "urlRedirect": "https://example.com/cars/nissan-versa"
+  },
+  {
+    "id": 7,
+    "name": "Fiat Strada Hard Working",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/45440-IMG_9003_13_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2020,
+    "fuel": "Gasolina",
+    "model": "Strada Hard Working CS 1.4",
+    "manufacturer": "Fiat",
+    "urlRedirect": "https://example.com/cars/fiat-strada"
+  },
+  {
+    "id": 8,
+    "name": "Nissan Kicks Advance",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/87393-IMG_8749_16_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2022,
+    "fuel": "Gasolina",
+    "model": "Kicks 1.6 Advance",
+    "manufacturer": "Nissan",
+    "urlRedirect": "https://example.com/cars/nissan-kicks"
+  },
+  {
+    "id": 9,
+    "name": "Nissan Sentra SL",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/69554-IMG_0295_16_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2016,
+    "fuel": "Gasolina",
+    "model": "Sentra 2.0 SL CVT",
+    "manufacturer": "Nissan",
+    "urlRedirect": "https://example.com/cars/nissan-sentra"
+  },
+  {
+    "id": 10,
+    "name": "Fiat Uno Vivace",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/11956-IMG_6406_13_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2015,
+    "fuel": "Gasolina",
+    "model": "Uno 1.0 Vivace",
+    "manufacturer": "Fiat",
+    "urlRedirect": "https://example.com/cars/fiat-uno"
+  },
+  {
+    "id": 11,
+    "name": "Ford Ka Sedan SE Plus",
+    "imageURL": "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/90219-IMG_0673_17_11zon.jpg?v=3",
+    "km": "Não informado",
+    "year": 2018,
+    "fuel": "Gasolina",
+    "model": "Ka Sedan SE Plus 1.5",
+    "manufacturer": "Ford",
+    "urlRedirect": "https://example.com/cars/ford-ka-sedan"
+  }
+]
