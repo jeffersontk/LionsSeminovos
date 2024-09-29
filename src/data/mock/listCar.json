@@ -8,7 +8,7 @@
     "fuel": "Gasolina",
     "model": "HB20 Comfort Style 1.6",
     "manufacturer": "Hyundai",
-    "urlRedirect": "https://example.com/cars/hyundai-hb20"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/hb20-comfort-style-16-850"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "fuel": "Gasolina",
     "model": "Tiguan TSI 4WD 2.0",
     "manufacturer": "Volkswagen",
-    "urlRedirect": "https://example.com/cars/volkswagen-tiguan"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/tiguan-tsi-4wd-20-849"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "fuel": "Gasolina",
     "model": "Tracker LT 1.0 AT",
     "manufacturer": "Chevrolet",
-    "urlRedirect": "https://example.com/cars/chevrolet-tracker"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/tracker-lt-10-at-848"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "fuel": "Gasolina",
     "model": "Nivus 200 TSI Comfortline AT",
     "manufacturer": "Volkswagen",
-    "urlRedirect": "https://example.com/cars/volkswagen-nivus"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/nivus-200-tsi-comfortline-at-847"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "fuel": "Gasolina",
     "model": "2008 1.6 Allure Pack",
     "manufacturer": "Peugeot",
-    "urlRedirect": "https://example.com/cars/peugeot-2008"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/2008-16-allure-pack-845"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "fuel": "Gasolina",
     "model": "Versa 1.6 V-Drive",
     "manufacturer": "Nissan",
-    "urlRedirect": "https://example.com/cars/nissan-versa"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/versa-v-drive-10-844"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "fuel": "Gasolina",
     "model": "Strada Hard Working CS 1.4",
     "manufacturer": "Fiat",
-    "urlRedirect": "https://example.com/cars/fiat-strada"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/strada-hard-working-cs-14-843"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "fuel": "Gasolina",
     "model": "Kicks 1.6 Advance",
     "manufacturer": "Nissan",
-    "urlRedirect": "https://example.com/cars/nissan-kicks"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/kicks-advance-16-842"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "fuel": "Gasolina",
     "model": "Sentra 2.0 SL CVT",
     "manufacturer": "Nissan",
-    "urlRedirect": "https://example.com/cars/nissan-sentra"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/sentra-sl-20-cvt-841"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "fuel": "Gasolina",
     "model": "Uno 1.0 Vivace",
     "manufacturer": "Fiat",
-    "urlRedirect": "https://example.com/cars/fiat-uno"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/uno-vivace-10-839"
   },
   {
     "id": 11,
@@ -118,6 +118,6 @@
     "fuel": "Gasolina",
     "model": "Ka Sedan SE Plus 1.5",
     "manufacturer": "Ford",
-    "urlRedirect": "https://example.com/cars/ford-ka-sedan"
+    "urlRedirect": "https://www.lionsseminovos.com.br/seminovos/ka-sedan-se-plus-15-838"
   }
 ]

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Navigation } from '@/components/Molecules/Navigation'
 import NavigationMobile from '@/components/Molecules/Navigation/mobile'
 
-export default function Header() {
+export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
