@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🔗 Links
 
-First, run the development server:
+![Static Badge](https://img.shields.io/badge/Figma-Figma?style=for-the-badge&logo=figma&logoColor=F24E1E&labelColor=black&color=F24E1E)
+[Lions Seminovos - Figma](https://www.figma.com/design/2B7kdnMtJNNJquQx0lfvmt/lions-seminovos?node-id=0-1&t=lhVaSIPwuH1KBW4t-1)
+![Static Badge](https://img.shields.io/badge/next.js-next?style=for-the-badge&logo=next.js&logoColor=&labelColor=black&color=blue)
+[Static Web App](https://lions-seminovos.vercel.app/)
+
+# Teste Técnico Linos Seminovos
+
+DESAFIO - Crie a página web baseada na imagem abaixo.
+
+- [x]  Utilize elementos gráficos públicos da Lions Seminovos que podem ser encontrados no Google ou nas redes sociais
+- [x]  Adicione elementos básicos, como título, uma barra de navegação simples, um conteúdo principal e um rodapé.
+- [x]  Inclua pelo menos um botão que direcione o usuário para uma página externa
+- [x]  Estilize a página de forma que funcione em diferentes tamanhos de tela
+- [x]  Inclua um campo de busca (search bar) que permita procurar por uma palavra-chave em uma lista da sua escolha
+
+## Escolha Técnica
+
+Para realizar esse desafio técnico, escolhi a stack React JS com Next como framework e Tailwind CSS, seguindo a propria recomendação da documentação atual do React, essa stack é utilizada amplamente pela comunidade de desenvolvimento e por muitas empresas no mercado.
+
+## Stack utilizada
+
+**Front-end:** React, NextJS, TailwindCSS
+
+## Configurando projeto
+
+Após a clonagem do projeto, realize os comandos a baixo para executar o projeto.
+
+### Pre requisitos
+
+- Node v20.10.0 ou superior
+- Gerenciador de pacotes npm ou yarn
+
+### Instalação
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  cd <nome do projeto>
+  
+  npm install
+  
+  # ou
+  
+  yarn add
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Iniciando projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  # ou
 
-## Learn More
+  yarn dev
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+projeto irá executar na porta 3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+acesse [http://localhost:3000](http://localhost:3000)
