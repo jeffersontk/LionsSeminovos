@@ -27,6 +27,8 @@ Para realizar esse desafio técnico, escolhi a stack React JS com Next como fram
 
 Na organização, escolhi seguir a arquitetura de atomic design, onde cada componente é um átomo e a junção deles compõe moléculas e organismos.
 
+Resolver este desafio foi simples, Criei uma lista de carros no formato JSON, e escolhi fazer os filtros via query params.
+
 ## Stack utilizada
 
 **Front-end:** React, NextJS, TailwindCSS
