@@ -13,8 +13,8 @@ export function Header() {
   };
 
   return (
-    <div className='w-full'>
-      <header className='bg-primary w-full py-8 px-8 flex items-center justify-center'>
+    <>
+      <header className='bg-primary w-full py-8 px-8 flex items-center justify-center fixed top-0 left-0 z-50'>
         <div className='max-w-[1280px] w-full flex items-center justify-between'>
           <Image 
               src={logo}
@@ -29,9 +29,15 @@ export function Header() {
               aria-label="Toggle menu"
             >
               {isOpen ? (
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFF" viewBox="0 0 256 256"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-12">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+              </svg>
+              
               ) : (
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFF" viewBox="0 0 256 256"><path d="M213.66,165.66a8,8,0,0,1-11.32,0L128,91.31,53.66,165.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0l80,80A8,8,0,0,1,213.66,165.66Z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-12">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              
               )}
             </button>
             <Navigation />
@@ -39,6 +45,10 @@ export function Header() {
         </div>
       </header>
       <NavigationMobile isOpen={isOpen} toggleMenu={toggleMenu}/>
-    </div>
+      {
+        !isOpen &&
+      <div className='pt-[112px] lg:pt-[109px]'></div> 
+      }
+    </>
   )
 }

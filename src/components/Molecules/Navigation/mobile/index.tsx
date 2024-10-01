@@ -12,7 +12,7 @@ export default function NavigationMobile({isOpen = false, toggleMenu}: props) {
   if(!isOpen) return null
 
   return (
-    <div className='flex flex-col gap-4 bg-offWhite p-8'>
+    <div className='flex flex-col gap-4 bg-offWhite p-8 pt-[144px]'>
       <NavItem label="Ofertas" href="/" active={pathname === '/'} toggleMenu={toggleMenu} />
       <NavItem label="Nosso Estoque" href="/estoque" active={pathname === '/estoque'} toggleMenu={toggleMenu} />
     </div>
