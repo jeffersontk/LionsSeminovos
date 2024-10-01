@@ -38,7 +38,7 @@ export function Header() {
           </div>
         </div>
       </header>
-      <NavigationMobile isOpen={isOpen} />
+      <NavigationMobile isOpen={isOpen} toggleMenu={toggleMenu}/>
     </div>
   )
 }
