@@ -39,13 +39,13 @@ export function Filter() {
   }
 
   return (
-    <section className="bg-secondary py-8 px-8 lg:px-0 w-full flex items-center justify-center">
+    <section className="bg-secondary py-8 px-8 xl:px-0 w-full flex items-center justify-center">
       <div className="max-w-[1280px] w-full flex flex-col gap-8 items-center justify-center">
         <div className="flex flex-col gap-2 justify-center items-center">
           <h1 className="text-offWhite text-2xl lg:text-3xl font-bold text-center">ENCONTRE O SEMINOVO IDEAL</h1>
           <h3 className="text-offWhite text-base lg:text-xl lg:font-bold text-center">AS MELHORES TAXAS ESTÃO AQUI!</h3>
         </div>
-        <div className="w-full grid grid-cols-1 gap-4 lg:gap-0 lg:grid-flow-row-dense lg:grid-cols-3">
+        <div className="w-full grid grid-cols-1 gap-4 xl:gap-0 lg:grid-flow-row-dense lg:grid-cols-3">
           <div className='flex gap-4'>
             <SearchBar />
             <button 

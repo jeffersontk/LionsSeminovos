@@ -10,7 +10,7 @@ export default function Estoque() {
       <Suspense fallback={<div>Loading...</div>}>
         <Filter />
       </Suspense>
-      <div className="max-w-[1280px] w-full mt-8 px-8 lg:px-0">
+      <div className="max-w-[1280px] w-full mt-8 px-8 xl:px-0">
         <h2 className='text-2xl font-medium text-secondary'>
           Carros Seminovos em Ofertas     
         </h2>

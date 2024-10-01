@@ -70,9 +70,9 @@ function CardListComponent({ list }: Props) {
   }
 
   return (
-    <section className='max-w-[1280px] w-full flex flex-col gap-4 px-8 py-8 lg:px-0'>
+    <section className='max-w-[1280px] w-full flex flex-col gap-4 px-8 py-8 xl:px-0'>
       {filteredCars.length > 0 ? (
-        <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
+        <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 gap-8'>
           {renderCardList()}
         </ul>
       ) : (
