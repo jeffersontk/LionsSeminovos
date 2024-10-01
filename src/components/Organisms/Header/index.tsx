@@ -12,8 +12,6 @@ export function Header() {
     setIsOpen(!isOpen);
   };
 
-
-
   return (
     <div className='w-full'>
       <header className='bg-primary w-full py-8 px-8 flex items-center justify-center'>

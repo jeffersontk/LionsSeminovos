@@ -1,27 +1,53 @@
-'use client'
-import React, { useState } from 'react';
+'use client';
 
-export function Select() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState('Selecionar');
-  const options = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
+import React, { useState } from 'react';
+import { useRouter, useSearchParams, usePathname } from 'next/navigation';
+
+interface Props {
+  options: (string | number)[];
+  placeholder?: string;
+  disabled?: boolean;
+  name: string;
+}
+
+export function Select({ name, options, placeholder, disabled }: Props) {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [selectedOption, setSelectedOption] = useState<string | number>('Selecionar');
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const pathname = usePathname();
 
   const toggleOpen = () => {
-    setIsOpen(!isOpen);
+    if (!disabled) {
+      setIsOpen(!isOpen);
+    }
   };
 
-  const handleOptionClick = (option:string) => {
+  const handleOptionClick = (option: string | number) => {
     setSelectedOption(option);
-    setIsOpen(false); // Fechar o dropdown após seleção
+    setIsOpen(false);
+    const params = new URLSearchParams(searchParams.toString());
+
+    if (option === 'Selecionar') {
+      params.delete(name);
+    } else {
+      params.set(name, option.toString());
+    }
+
+    if (name === 'manufacturer') {
+      params.delete('model');
+    }
+
+    router.push(`${pathname}?${params.toString()}`);
   };
 
   return (
-    <div className='relative w-full max-w-96'>
+    <div className={`relative w-full max-w-96 ${disabled ? 'opacity-50 cursor-not-allowed' : ''}`}>
       <div
-        className='border border-[#A3A3A3] rounded-md flex items-center justify-between px-4 py-2 cursor-pointer text-[#A3A3A3]'
+        className='border border-[#A3A3A3] bg-offWhite rounded-md flex items-center justify-between px-4 py-2 cursor-pointer text-[#A3A3A3]'
         onClick={toggleOpen}
       >
-        {selectedOption}
+        {selectedOption !== 'Selecionar' ? selectedOption : placeholder}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -34,8 +60,14 @@ export function Select() {
         </svg>
       </div>
 
-      {isOpen && (
+      {isOpen && !disabled && (
         <ul className='absolute z-10 w-full border border-[#A3A3A3] rounded-md bg-white mt-1 max-h-60 overflow-auto'>
+          <li
+            className='px-4 py-2 text-[#A3A3A3] cursor-pointer hover:bg-gray-100'
+            onClick={() => handleOptionClick('Selecionar')}
+          >
+            Selecionar
+          </li>
           {options.map((option, index) => (
             <li
               key={index}
