@@ -18,7 +18,7 @@ export default function SearchBar() {
   return (
     <div className='w-full max-w-96 bg-offWhite border border-[#A3A3A3] rounded-md flex items-center pl-4 pr-2 py-2'>
       <input
-        type="text"
+        type="search"
         className='w-full bg-offWhite outline-none text-[#A3A3A3]'
         value={query}
         onChange={handleSearch}
