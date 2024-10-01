@@ -2,9 +2,14 @@
 # 🔗 Links
 
 ![Static Badge](https://img.shields.io/badge/Figma-Figma?style=for-the-badge&logo=figma&logoColor=F24E1E&labelColor=black&color=F24E1E)
+
 [Lions Seminovos - Figma](https://www.figma.com/design/2B7kdnMtJNNJquQx0lfvmt/lions-seminovos?node-id=0-1&t=lhVaSIPwuH1KBW4t-1)
+
 ![Static Badge](https://img.shields.io/badge/next.js-next?style=for-the-badge&logo=next.js&logoColor=&labelColor=black&color=blue)
-[Static Web App](https://lions-seminovos.vercel.app/)
+
+[Web App](https://lions-seminovos.vercel.app/)
+
+[Curriculo](https://drive.google.com/file/d/1-WQOncdAG2mfGzc16c5PF_XckHPtNNuM/view?usp=sharing)
 
 # Teste Técnico Linos Seminovos
 
@@ -18,7 +23,9 @@ DESAFIO - Crie a página web baseada na imagem abaixo.
 
 ## Escolha Técnica
 
-Para realizar esse desafio técnico, escolhi a stack React JS com Next como framework e Tailwind CSS, seguindo a propria recomendação da documentação atual do React, essa stack é utilizada amplamente pela comunidade de desenvolvimento e por muitas empresas no mercado.
+Para realizar esse desafio técnico, escolhi a stack React JS com Next como framework e Tailwind CSS, seguindo a própria recomendação da documentação atual do React. Essa stack é amplamente utilizada pela comunidade de desenvolvimento e por muitas empresas no mercado.
+
+Na organização, escolhi seguir a arquitetura de atomic design, onde cada componente é um átomo e a junção deles compõe moléculas e organismos.
 
 ## Stack utilizada
 
